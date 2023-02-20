@@ -69,4 +69,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  # gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg' # for Heroku deployment
 end
